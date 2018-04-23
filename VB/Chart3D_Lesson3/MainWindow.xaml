@@ -1,0 +1,40 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chart3D_Lesson3"
+        xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/charts" 
+        x:Class="Chart3D_Lesson3.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <local:IrisesViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <dxc:Chart3DControl>
+            <dxc:Chart3DControl.Legends>
+                <dxc:Legend BorderBrush="Transparent" Background="Transparent"/>
+            </dxc:Chart3DControl.Legends>
+            <dxc:Series3DDataSourceAdapter DataSource="{Binding Irises}" 
+                                           XArgumentDataMember="SepalLength" 
+                                           YArgumentDataMember="PetalLength" 
+                                           ValueDataMember="SepalWidth" 
+                                           SeriesDataMember="Species" 
+                                           dxc:Bubble3DSeriesView.WeightDataMember="PetalWidth" >
+                <dxc:Series3DDataSourceAdapter.SeriesTemplate>
+                    <dxc:Series3DTemplate>
+                        <dxc:Series3DTemplate.View>
+                            <dxc:Bubble3DSeriesView MaxSize="0.5" 
+                                                    MinSize="0.1">
+                                <dxc:Bubble3DSeriesView.MarkerModel>
+                                    <dxc:Marker3DSpherePointModel/>
+                                </dxc:Bubble3DSeriesView.MarkerModel>
+                            </dxc:Bubble3DSeriesView>
+                        </dxc:Series3DTemplate.View>
+                    </dxc:Series3DTemplate>
+                </dxc:Series3DDataSourceAdapter.SeriesTemplate>
+            </dxc:Series3DDataSourceAdapter>
+        </dxc:Chart3DControl>
+    </Grid>
+</Window>
