@@ -1,5 +1,5 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
+# Visual Studio 2012
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chart3D_Lesson3", "Chart3D_Lesson3\Chart3D_Lesson3.csproj", "{789A0024-05CF-4E2C-B938-16AD4A348D2E}"
