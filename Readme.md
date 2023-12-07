@@ -5,11 +5,11 @@
 <!-- default badges end -->
 
 
-# Chart for WPF = Create a 3D Chart with Automatically Generated Series
+# Chart for WPF - Create a 3D Chart with Automatically Generated Series
 
 This example shows how to design a 3D chart with automatically generated series based on an underlying data source.
 
-[Chart](./images/chart.png)
+[chart](./images/chart.png)
 
 ## Files to Review
 
