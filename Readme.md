@@ -9,7 +9,7 @@
 
 This example shows how to design a 3D chart with automatically generated series based on an underlying data source.
 
-[chart](./images/chart.png)
+![chart](./images/chart.png)
 
 ## Files to Review
 
