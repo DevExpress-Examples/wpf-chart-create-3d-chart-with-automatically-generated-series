@@ -19,7 +19,7 @@ This example shows how to design a 3D chart with automatically generated series 
 
 ## Documentation 
 
-[Lesson 3 - Create a 3D Chart with Automatically Generated Series](https://docs.devexpress.com/WPF/117718/controls-and-libraries/charts-suite/chart3d-control/getting-started/lesson-3-create-a-3d-chart-with-automatically-generated-series)
+* [Lesson 3 - Create a 3D Chart with Automatically Generated Series](https://docs.devexpress.com/WPF/117718/controls-and-libraries/charts-suite/chart3d-control/getting-started/lesson-3-create-a-3d-chart-with-automatically-generated-series)
 
 ## More Examples
 
