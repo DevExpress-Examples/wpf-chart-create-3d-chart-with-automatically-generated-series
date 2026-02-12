@@ -26,7 +26,7 @@ This example shows how to design a 3D chart with automatically generated series 
 
 * [Chart for WPF - Create a Simple Unbound 3D Chart](https://github.com/DevExpress-Examples/wpf-pivot-create-unbound-3d-chart)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-chart-create-3d-chart-with-automatically-generated-series&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-chart-create-3d-chart-with-automatically-generated-series&~~~was_helpful=no)
 
